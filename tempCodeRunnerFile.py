@@ -1,1 +1,2 @@
-print(5<8 or 23>90)
+for item in dict1.values():
+    print(item)
