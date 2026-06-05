@@ -65,3 +65,18 @@ dict1={
 # age = 8
 # status = "Adult" if age >= 18 else "Minor"
 # print(status)
+
+# status="ok456"
+# print("Good") if status=="ok" else print("Not Good")
+
+age = 40
+# result = "Positive" if x > 0 else "Negative" if x < 0 else "Zero"
+# print(result)  # Outputs: Positive
+
+# if age>18:
+#     a=9
+#     b=8
+#     print(a+b)
+#     print("You can drive")
+# else:
+#     print("You can not drive")

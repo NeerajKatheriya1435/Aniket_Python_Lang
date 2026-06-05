@@ -1,2 +1,2 @@
-for item in dict1.values():
-    print(item)
+for i in range(1,101):
+    os.remove(f"FolderMy_{i}")
