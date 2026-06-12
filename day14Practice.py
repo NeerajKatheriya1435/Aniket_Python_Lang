@@ -40,12 +40,29 @@ l1=[4,7,2,7,9,6,78,56,5,98,34,90]
 # # num=
 # print(fibb(term))
 
-# num=153
+# Write a program to check whether a number is an Armstrong number.
+
+# import math
+# num=1635
 # temp=num
-# count=0
-# while(num<0):
+# # count=0
+# digit=0
+
+# while(num>0):
 #     num//=10
+#     digit+=1
 
+# # print(digit)
 
+# armNum=0
+# num=temp
 
+# while(temp>0):
+#     lastDigit=temp%10
+#     armNum=math.pow(lastDigit,digit)+armNum
+#     temp//=10
 
+# if(num==armNum):
+#     print("Number is ArmStrong")
+# else:
+#     print("Number is not Armstrong")
