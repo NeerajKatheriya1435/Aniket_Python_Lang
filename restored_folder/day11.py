@@ -31,18 +31,17 @@
 # print(file.readline())
 # print(file.readline())
 
-file=open("rohan.txt","r")
-
-count=0
-while True:
-    content=file.readline()
-    count+=1
-    if count<=1:
-        continue
-    if not content:
-        break
-    if(count==2):
-        print(content)
+# file=open("rohan.txt","r")
+# count=0
+# while True:
+#     content=file.readline()
+#     count+=1
+#     if count<=1:
+#         continue
+#     if not content:
+#         break
+#     if(count==2):
+#         print(content)
 
 # print(file.readlines())
 
